@@ -1,0 +1,9 @@
+Package: com.alwizo.vipsnap
+Name: الوزير VIP 👑
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm iphoneos-arm64
+Description: نظام حماية الوزير السيادي 2026 - ميزات شاملة وحماية نووية ضد الباند.
+Maintainer: AlWazir
+Author: AlWazir
+Section: Tweaks
