@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadDescription</key>
+            <string>نظام حماية الوزير VIP لتشفير البيانات وحجب الرصد</string>
+            <key>PayloadDisplayName</key>
+            <string>درع الوزير السيادي 🛡️</string>
+            <key>PayloadIdentifier</key>
+            <string>com.alwazir.dns.proxy</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>A1B2C3D4-E5F6-7890-ABCD-EF1234567890</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>DNSProtocol</key>
+            <string>HTTPS</string>
+            <key>ServerAddresses</key>
+            <array>
+                <string>1.1.1.1</string>
+                <string>8.8.8.8</string>
+            </array>
+            <key>OnDemandRules</key>
+            <array>
+                <dict>
+                    <key>Action</key>
+                    <string>Disconnect</string>
+                    <key>URLStringProbe</key>
+                    <string>analytics.snapchat.com</string>
+                </dict>
+                <dict>
+                    <key>Action</key>
+                    <string>Disconnect</string>
+                    <key>URLStringProbe</key>
+                    <string>app-measurement.com</string>
+                </dict>
+                <dict>
+                    <key>Action</key>
+                    <string>Disconnect</string>
+                    <key>URLStringProbe</key>
+                    <string>sc-analytics.appspot.com</string>
+                </dict>
+            </array>
+        </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>حماية الوزير VIP 🛡️</string>
+    <key>PayloadIdentifier</key>
+    <string>com.alwazir.protection.profile</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>D1C2B3A4-F5E6-0987-DCBA-0987654321FE</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
